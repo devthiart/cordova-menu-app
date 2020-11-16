@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" version="1.0.0" id="com.mundopilbo.cenourapp">
+
+    <name>Só de Cenoura</name>
+    
+    <description>
+        Menu do restaurante Só de Cenoura.
+    </description>
+    
+    <author href="http://www.mundopilbo.com" email="devthiart@gmail.com">
+        Thiago - Mundo Pilbo.
+    </author>
+    
+    <icon src="icon.png" />
+    
+    <plugin name="cordova-plugin-splashscreen" />
+    <gap:splash src="splash.png" />
+    
+    <preferences name="orientation" value="portrait" />
+    <preferences name="fullscreen" value="true" />
+    
+    <gap:platform name="android" />
+    
+</widget>
